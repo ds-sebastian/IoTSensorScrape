@@ -97,5 +97,3 @@ data = data.fillna(data.mean())
 
 data.to_csv('output.csv',index=False)
 # %%
-data.dtypes
-# %%
